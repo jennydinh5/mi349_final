@@ -1,0 +1,136 @@
+.topnav{
+    background-color: rgb(207, 196, 196);
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #9a5454;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.top {
+    background-color: #ddd;
+    color: black;
+}
+
+html{
+    background: lightgrey;
+}
+    
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 40px;
+    padding: 40px;
+    color: #242424;
+    border-top: 10px solid #242424;
+    background: #fff;
+}
+    
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 4em;
+    margin: 0;
+}
+
+h2{
+    font-size: 2em;
+}
+p{
+    line-height: 1.4em;
+}
+    
+#discussion{
+    border-top: 1px dotted #ccc;
+}
+    
+.topics{
+    border-bottom: 1px dotted #ccc;
+}
+.push{
+    border-bottom: 1px dotted #ccc;
+}
+
+.pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+    width: 400px;
+    margin: 0 0 20x 20px;
+    background: white;
+    border: 5px solid #666;
+    padding: 15px;
+    text-align: center;
+}
+
+ul {
+    margin: 1;
+    padding: 1;
+}
+
+ul li {
+cursor: auto; 
+   background: rgb(218, 196, 196)
+   font-size: 20px;
+   transition: 0.5s;
+   position: relative;
+   padding: 10px 8px 10px 50px;
+   -webkit-user-select: none;
+}
+
+.list{
+    font-size: 30px;
+}
+
+#footer{
+    border-top: 1px dotted #ccc;
+}
+
+.calendar{
+    display: flex;
+    float: right;
+}
+
+#footer {
+    font-size: 10px;
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size:15px;
+    }
+    .pic{
+        background-image:center center;
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+    body{
+        font-size: 20px;
+        width: 60%;
+    }
+    
+    h1{
+        font-size: 30px;
+    }
+
+    .calendar{
+        display: block;
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        background-size: 20px;
+    }
+}
